@@ -20,6 +20,9 @@
       <div class="grid wide">
         <nav class="navbar edit-navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -49,102 +52,104 @@
     <div class="content">
       <div class="grid wide">
         <h1 class="content-title">Manage Order</h1>
-        <table>
-          <thead class="table-header">
-            <th class="table-stt">S.N</th>
-            <th class="table-name">Food</th>
-            <th class="table-price">Price</th>
-            <th class="table-quantity">Qty</th>
-            <th class="table-total">Total</th>
-            <th class="table-order">Order Date</th>
-            <th class="table-status">Status</th>
-            <th class="table-customer">Customer Name</th>
-            <th class="table-contact">Contact</th>
-            <th class="table-email">Email</th>
-            <th class="table-address">Address</th>
-            <th class="table-actions">Actions</th>
-          </thead>
-          <tbody>
-            <tr class="table-content">
-              <td class="tablet-stt">1
-              </td>
-              <td class="table-name">Mixed Pizza
-              </td>
-              <td class="table-price">10.00
-              </td>
-              <td class="table-quatity">2
-              </td>
-              <td class="table-total">20.00
-              </td>
-              <td class="table-order">2020-11-30 04:07:17
-              </td>
-              <td class="table-status"><a href="" class="table-status-success">Delivered</a>
-              </td>
-              <td class="table-customer">Jana Bush
-              </td>
-              <td class="table-contact">+1 (562) 101-2028
-              </td>
-              <td class="table-email">tydujy@mailinator.com
-              </td>
-              <td class="table-address">Minima iure ducimus
-              </td>
-              <td class="table-actions"><a href="" class="table-actions-item">Update Order</a>
-              </td>
-            </tr>
-            <tr class="table-content">
-              <td class="tablet-stt">2
-              </td>
-              <td class="table-name">Best Burger
-              </td>
-              <td class="table-price">4.00
-              </td>
-              <td class="table-quatity">4
-              </td>
-              <td class="table-total">16.00
-              </td>
-              <td class="table-order">2020-11-30 03:52:45
-              </td>
-              <td class="table-status"><a href="" class="table-status-success">Delivered</a>
-              </td>
-              <td class="table-customer">Kelly Dillard
-              </td>
-              <td class="table-contact">+1 (908) 914-3108
-              </td>
-              <td class="table-email">fexekihor@mailinator.com
-              </td>
-              <td class="table-address">Incidunt ipsum ad d
-              </td>
-              <td class="table-actions"><a href="" class="table-actions-item">Update Order</a>
-              </td>
-            </tr>
-            <tr class="table-content">
-              <td class="tablet-stt">3
-              </td>
-              <td class="table-name">Sadeko Mono
-              </td>
-              <td class="table-price">6.00
-              </td>
-              <td class="table-quatity">3
-              </td>
-              <td class="table-total">18.00
-              </td>
-              <td class="table-order">2020-11-30 03:49:48
-              </td>
-              <td class="table-status"><a href="" class="table-status-error">Cancelled</a>
-              </td>
-              <td class="table-customer">Bradley Farrell
-              </td>
-              <td class="table-contact">+1 (567) 504-4657
-              </td>
-              <td class="table-email">zuhafiq@mailinator.com
-              </td>
-              <td class="table-address">Duis aliqua Qui lor
-              </td>
-              <td class="table-actions"><a href="" class="table-actions-item">Update Order</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table">
+            <thead class="table-header">
+              <th class="table-stt">S.N</th>
+              <th class="table-name">Food</th>
+              <th class="table-price">Price</th>
+              <th class="table-quantity">Qty</th>
+              <th class="table-total">Total</th>
+              <th class="table-order">Order Date</th>
+              <th class="table-status">Status</th>
+              <th class="table-customer">Customer Name</th>
+              <th class="table-contact">Contact</th>
+              <th class="table-email">Email</th>
+              <th class="table-address">Address</th>
+              <th class="table-actions">Actions</th>
+            </thead>
+            <tbody>
+              <tr class="table-content">
+                <td class="tablet-stt">1
+                </td>
+                <td class="table-name">Mixed Pizza
+                </td>
+                <td class="table-price">10.00
+                </td>
+                <td class="table-quatity">2
+                </td>
+                <td class="table-total">20.00
+                </td>
+                <td class="table-order">2020-11-30 04:07:17
+                </td>
+                <td class="table-status"><a href="" class="table-status-success">Delivered</a>
+                </td>
+                <td class="table-customer">Jana Bush
+                </td>
+                <td class="table-contact">+1 (562) 101-2028
+                </td>
+                <td class="table-email">tydujy@mailinator.com
+                </td>
+                <td class="table-address">Minima iure ducimus
+                </td>
+                <td class="table-actions"><a href="" class="table-actions-item">Update Order</a>
+                </td>
+              </tr>
+              <tr class="table-content">
+                <td class="tablet-stt">2
+                </td>
+                <td class="table-name">Best Burger
+                </td>
+                <td class="table-price">4.00
+                </td>
+                <td class="table-quatity">4
+                </td>
+                <td class="table-total">16.00
+                </td>
+                <td class="table-order">2020-11-30 03:52:45
+                </td>
+                <td class="table-status"><a href="" class="table-status-success">Delivered</a>
+                </td>
+                <td class="table-customer">Kelly Dillard
+                </td>
+                <td class="table-contact">+1 (908) 914-3108
+                </td>
+                <td class="table-email">fexekihor@mailinator.com
+                </td>
+                <td class="table-address">Incidunt ipsum ad d
+                </td>
+                <td class="table-actions"><a href="" class="table-actions-item">Update Order</a>
+                </td>
+              </tr>
+              <tr class="table-content">
+                <td class="tablet-stt">3
+                </td>
+                <td class="table-name">Sadeko Mono
+                </td>
+                <td class="table-price">6.00
+                </td>
+                <td class="table-quatity">3
+                </td>
+                <td class="table-total">18.00
+                </td>
+                <td class="table-order">2020-11-30 03:49:48
+                </td>
+                <td class="table-status"><a href="" class="table-status-error">Cancelled</a>
+                </td>
+                <td class="table-customer">Bradley Farrell
+                </td>
+                <td class="table-contact">+1 (567) 504-4657
+                </td>
+                <td class="table-email">zuhafiq@mailinator.com
+                </td>
+                <td class="table-address">Duis aliqua Qui lor
+                </td>
+                <td class="table-actions"><a href="" class="table-actions-item">Update Order</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
     <div class="footer">
